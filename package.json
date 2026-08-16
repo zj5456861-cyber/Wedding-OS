@@ -3,7 +3,15 @@
   "private": true,
   "version": "0.3.0",
   "type": "module",
-  "scripts": {
+   "scripts":  {
+  "build": "tsc --noEmit && vite build",
+  "dev": "vite",
+  "preview": "vite preview"
+}
+  "build": "tsc --noEmit && vite build",
+  "dev": "vite",
+  "preview": "vite preview"
+}
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
